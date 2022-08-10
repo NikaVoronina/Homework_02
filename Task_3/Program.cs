@@ -5,3 +5,14 @@
 // 6 -> да
 // 7 -> да
 // 1 -> нет
+
+Console.Write("Введите число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+if(a == 6 || a == 7)
+{
+    Console.Write("Выходной день");
+}
+else
+{
+    Console.Write("Будний день");
+}
