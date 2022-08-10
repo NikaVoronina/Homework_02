@@ -8,3 +8,6 @@
 
 // 32679 -> 6
 
+Console.Write("Введите трёхзначное число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+
