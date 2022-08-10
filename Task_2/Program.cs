@@ -8,6 +8,6 @@
 
 // 32679 -> 6
 
-Console.Write("Введите трёхзначное число: ");
+Console.Write("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
-
+Console.Write(a > 99 ? a.ToString()[2] : "Третьей цифры нет");
